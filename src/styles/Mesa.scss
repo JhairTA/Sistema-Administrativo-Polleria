@@ -1,0 +1,173 @@
+.registroMesa{
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
+    border-radius: 20px;
+    min-height: 200px;
+    max-width: 75%;
+    h2{
+        margin: 0;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #aaa7a7;
+        border-radius: 17px 17px 0px 0px;
+    }
+
+    .formularioResgistroMesa{
+        display: flex;
+        padding: 20px;
+        border-radius: 0px 0px 17px 17px;
+
+        select{
+            width: 30%;
+            height: 34px;
+            font-size: 18px;
+            padding-left: 10px;
+            border-radius: 5px;
+            margin: 0px 0px 2px 35px;
+        }
+
+        .primerCampo{
+            label:nth-child(1){
+                input{
+  
+                    width: 80%;
+                }
+            }
+        
+            label:nth-child(2){
+                input{
+                    width: 75%;
+                    //margin-left: 19px;  
+                }
+            }
+        }
+
+        .segundoCampo{
+            width: 600px;
+            align-items: flex-start;
+            padding-top: 5px;
+            padding-left: 2px;
+            select{
+                width: 70%;
+                height: 34px;
+                font-size: 18px;
+                padding-left: 10px;
+                border-radius: 5px;
+                 margin: 0px 0px 2px 30px;
+            }
+    
+        }
+    }
+
+    label{
+        width: 100%;
+        font-size: 22px;
+    }
+
+    input{
+        width: 70%;
+        height: 30px;
+        font-size: 18px;
+        padding-left: 10px;
+        border-radius: 5px;
+        margin: 5px;
+    }
+
+    button{
+        width: 250px;
+        min-height: 20px;
+        margin-top: 10px;
+        border: 0;
+        background-color: rgb(74, 190, 59);
+        color: white;
+    }
+
+    .btn-actualizar{
+        background-color: #9733c5;
+    }
+
+    .btn_cancelar{
+        background-color: #928f8f;
+    }
+}
+
+.registroMesaMozo{
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
+    border-radius: 20px;
+    min-height: 230px;
+    max-width: 40%;
+    h2{
+        margin: 0;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #aaa7a7;
+        border-radius: 17px 17px 0px 0px;
+    }
+
+    .formularioResgistroMesa{
+        display: flex;
+        padding: 20px;
+        border-radius: 0px 0px 17px 17px;
+
+        select{
+            width: 60%;
+            height: 34px;
+            font-size: 18px;
+            padding-left: 10px;
+            border-radius: 5px;
+            margin: 0px 0px 2px 35px;
+        }
+    }
+
+    label{
+        width: 100%;
+        font-size: 22px;
+    }
+
+    button{
+        width: 250px;
+        min-height: 20px;
+        margin-top: 10px;
+        border: 0;
+        background-color: rgb(74, 190, 59);
+        color: white;
+    }
+
+    .btn-actualizar{
+        background-color: #9733c5;
+    }
+
+    .btn_cancelar{
+        background-color: #928f8f;
+    }
+}
+
+.listaProductos{
+    .tabla{
+        table{
+            width: 97%;
+        }
+    }
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #f1e63f;}

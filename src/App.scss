@@ -1,0 +1,101 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+
+  .form-login{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 17px;
+    justify-content: center;
+    align-items: center;
+
+    .cont-image{
+      width: 350px;
+      height: 350px;
+      img{
+        width: 350px;
+        height: 350px;
+        border-radius: 17px 0px 0px 17px;
+      }
+    }
+
+  }
+
+}
+
+.user{
+  border-radius: 17px;
+  height: 35px;
+  padding-left: 10px;
+  width: 250px;
+}
+
+.password{
+  border-radius: 17px 0px 0px 17px;
+  height: 35px;
+  width: 190px;
+  padding-left: 10px;
+}
+
+.input-user{
+  margin-bottom: 10px;
+}
+
+.btn{
+  background-color: rgb(139, 190, 51);
+  margin-top: 20px;
+  width: 250px;
+  color: aliceblue;
+}
+
+.password-container{
+
+  button{
+    background-color: #000000;
+    color: white;
+    border-radius: 0px 17px 17px 0px;
+    padding-top: 7px;
+    border: 1px solid rgb(0, 0, 0)
+  }
+
+  button:hover{
+    border: 1px solid #000000;
+  }
+}
+
+
+
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  height: 250px;
+  background-color: rgb(223, 212, 197);
+  border-radius: 0px 17px 17px 0px;
+
+  .titulo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .btn.bloqueado {
+    background-color: #dc3545; /* Color rojo para el botón bloqueado */
+  }
+
+
+}
+
+
+
+
+
+
+
+

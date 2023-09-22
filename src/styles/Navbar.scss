@@ -1,0 +1,519 @@
+
+$fondo1: #ffcc00;
+$gray: #c4ccde;
+$colorBoton: #972017;
+
+.container{
+    display: flex;
+    min-height: 100vh;
+    //min-width: calc(100vw - 250px);
+    padding: 0;
+
+}
+
+.container2{
+    min-height: 100vh;
+    width: calc(100vw - 250px);
+    padding: 0;
+
+    h1{
+        margin-left: 20px;
+    }
+
+    h2{
+        margin: 0;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #a9b7f5;
+        text-align: center;
+    }
+}
+
+.navbar{
+    display: flex;
+    color: floralwhite;
+    padding:  5px 20px;
+    min-height: 60px;
+    align-items: center;
+    background-color: #daaf03;
+    justify-content: space-between;
+
+    h1{
+        margin: 0px 0px;
+        font-size: 20px;
+    }
+
+    button{
+        margin: 0;
+        width: 100px;
+        background-color: $colorBoton;
+        border: none;
+
+        span{
+            margin-right: 7px;
+        }
+    }
+
+    .acciones{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        span{
+            font-weight: bold;
+        }
+    }
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 250px;
+    min-height: 100vh;
+
+    background-color: $fondo1;
+
+    .imagen{
+        img{
+            width: 180px;
+            height: 200px;
+            border-radius: 10px;
+        }
+    }
+
+    .navegacion{
+        width: 100%;
+        border-top: 1px solid #b19528;
+        ul{
+            list-style: none;
+            margin: 0px ;
+            padding: 1rem 2rem;
+
+            li{
+                margin-bottom: 30px;
+                font-size: 20px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                span{
+                    margin-right: 10px;
+                }
+
+                a{
+                    padding-left: 12px;
+                }
+            }
+
+            li:hover{
+                background-color: #ddb929;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    /*Registro Datos*/
+    .datos{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.btn2{
+    margin-left: 20px;
+    background-color: rgb(67, 109, 223);
+    color: white;
+}
+  
+thead th:nth-child(1) {
+    width: 10%;
+    background-color: black;
+    color: white;
+}
+  
+thead th:nth-child(2) {
+    width: 12%;
+    background-color: black;
+    color: white;
+}
+  
+thead th:nth-child(3) {
+    width: 12%;
+    background-color: black;
+    color: white;
+}
+thead th:nth-child(4) {
+    width: 15%;
+    background-color: black;
+    color: white;
+}
+
+thead th:nth-child(5) {
+    width: 15%;
+    background-color: black;
+    color: white;
+}
+
+thead th:nth-child(6) {
+    width: 15%;
+    background-color: black;
+    color: white;
+}
+
+thead th:nth-child(7) {
+    width: 20%;
+    background-color: black;
+    color: white;
+}
+
+thead th:nth-child(8) {
+    width: 20%;
+    background-color: black;
+    color: white;
+}
+
+thead th:nth-child(9) {
+    width: 20%;
+    background-color: black;
+    color: white;
+}
+
+thead th:nth-child(10) {
+    width: 20%;
+    background-color: black;
+    color: white;
+}
+  
+th, td {
+    padding: 20px;
+    text-align: center;
+}
+
+thead tr:nth-child(1){
+    th{
+        border-bottom: 1px solid;
+        border-right: 1px solid;
+    }
+}
+
+tbody td:nth-child(3){
+    gap: 20px;
+}
+
+.btnEditar{
+    background-color: rgb(37, 51, 185);
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: 0;
+}   
+
+.btnEdit{
+    width: 60px;
+}
+
+.btnEliminar{
+    background-color: rgb(216, 47, 47);
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 0;
+}
+
+.btnDelet{
+    width: 60px;
+}
+
+.registroPlatos{
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
+    border-radius: 20px;
+    min-height: 200px;
+    max-width: 688px;
+
+    h2{
+        margin: 0;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #aaa7a7;
+        border-radius: 17px 17px 0px 0px;
+    }
+}
+
+// Seccion Registrar Plato
+.formularioResgistro{
+    display: flex;
+    padding: 20px;
+    border-radius: 0px 0px 17px 17px;
+
+    label{
+        width: 100%;
+        font-size: 22px;
+
+    }
+
+    label:nth-child(2){
+        input{
+            margin-left: 25px;  
+        }
+    }
+
+    input{
+        width: 80%;
+        height: 30px;
+        font-size: 18px;
+        padding-left: 10px;
+        border-radius: 5px;
+        margin: 5px;
+    }
+    
+
+    button{
+        width: 200px;
+        min-height: 20px;
+        margin-top: 5px;
+        border: 0;
+        background-color: rgb(74, 190, 59);
+        color: white;
+    }
+
+    .btn-actualizar{
+        background-color: #9733c5;
+    }
+
+    .btn_cancelar{
+        background-color: #928f8f;
+    }
+
+    .segundoCampo{
+        width: 600px;
+        align-items: flex-start;
+        padding-top: 5px;
+        select{
+            width: 74%;
+            height: 34px;
+            font-size: 18px;
+            padding-left: 10px;
+            border-radius: 5px;
+             margin: 0px 0px 2px 30px;
+        }
+
+    }
+}
+
+.containerButton{
+    text-align: center;
+    .btn{
+        background-color: rgb(139, 190, 51);
+        margin: 0;
+        width: 250px;
+        color: aliceblue;
+        margin-bottom: 20px;
+    }
+
+    .btn-actualizar{
+        background-color: #9733c5;
+        margin: 0;
+        width: 250px;
+        color: aliceblue;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .btn_cancelar{
+        background-color: #928f8f;
+        margin: 0;
+        width: 250px;
+        color: aliceblue;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+
+  .menu-item:nth-child(1){
+    background-color: #37c55a;
+  }
+  .menu-item:nth-child(2){
+    background-color: #35dfc2;
+  }
+  .menu-item:nth-child(3){
+    background-color: #5787e0;
+  }
+  .menu-item:nth-child(4){
+    background-color: #bd50d8;
+  }
+  .menu-item:nth-child(5){
+    background-color: #d84a4a;
+  }
+  .menu-item:nth-child(6){
+    background-color: #f0ec15;
+  }
+  .menu-item:nth-child(7){
+    background-color: #f79d16;
+  }
+  
+  .menu-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .menu-item img {
+    width: 150px;
+    height: 145px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item p {
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.contenedorTotal{
+    background-image: url("../assets/fondoSistema3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.registroCompra{
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
+    border-radius: 20px;
+    min-height: 200px;
+    max-width: 1500px;
+
+    input{
+        width: 80%;
+        height: 30px;
+        font-size: 18px;
+        padding-left: 10px;
+        border-radius: 5px;
+        margin: 5px;
+    }
+
+    h2{
+        margin: 0;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #aaa7a7;
+        border-radius: 17px 17px 0px 0px;
+    }
+
+    label:nth-child(2){
+        input{
+            margin-left: 0;  
+        }
+    }
+
+    select{
+        width: 250px;
+        height: 34px;
+        font-size: 18px;
+        padding-left: 10px;
+        border-radius: 5px;
+    }
+
+    .segundoCampo{
+        align-items: flex-start;
+        padding-top: 0;
+
+    }
+
+    .btn-primary{
+        margin: 0;
+    }
+
+    .containerButton{
+        text-align: center;
+        .btn{
+            background-color: rgb(139, 190, 51);
+            margin: 0;
+            width: 250px;
+            color: aliceblue;
+            margin-bottom: 20px;
+        }
+    
+        .btn-actualizar{
+            background-color: #9733c5;
+            margin: 0;
+            width: 250px;
+            color: aliceblue;
+            margin-bottom: 20px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    
+        .btn_cancelar{
+            background-color: #928f8f;
+            margin: 0;
+            width: 250px;
+            color: aliceblue;
+            margin-bottom: 20px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+}   
+
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 18px;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #f1e63f;}
